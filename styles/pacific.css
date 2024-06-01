@@ -1,0 +1,144 @@
+
+
+header
+{
+    
+    background-color: #002171;
+   
+    height: 72px;
+  
+}
+a
+{
+    font-weight: 600;
+   
+    text-decoration: none;
+}
+nav
+{
+    background-color: #BBDEFB;
+    padding: 5px;
+    text-align: center;
+    
+}
+p, ul, footer
+{
+    font-family:"Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color : #666666;
+}
+
+h1
+{
+    background: linear-gradient(to right, #002171, transparent), url('../image/header.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    
+    height: 56px;
+    background-repeat: no-repeat;   
+    background-position: right;
+    line-height: normal;
+    padding-top: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+#homehero
+{
+    background-image: url('../image/home.png');
+    height: 300px;
+    background-size: 100% 100%;
+}
+#homehero1
+{
+    background-image: url('../image/activities.jpg');
+    height: 300px;
+    background-size: 80% 100%;
+    background-position: center;
+}
+
+body
+{
+    
+    background:linear-gradient(90deg, rgba(16,16,17,1) 0%, rgba(143,143,143,1) 16%, rgba(25,118,210,1) 39%, rgba(255,255,255,1) 57%, rgba(18,93,182,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+h2 , .p-text
+{
+    color: #1976D2;
+    
+}
+h1, h2
+{
+    font-family: serif;
+}
+footer
+{
+    text-align: center;
+    padding: 1em;
+}
+#wrapped
+{
+    background-color: #FFF;
+    min-width: 960px;
+    max-width: 2048px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 5px 4px 2px rgba(0,0,0,1);
+   
+
+    
+}
+#email
+{
+    text-decoration: underline;
+}
+main
+{
+    padding-left: 2em;
+    padding-right: 2em;
+    
+   
+}
+
+form{
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 15px 30px 15px 30px 15px 30px 15px 30px 15px 30px 30px;
+    grid-row-gap: 10px;
+}
+input, label, select, button
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    height: 30px;
+}
+label
+{
+    color: #FFF;
+}
+input, button, select
+{
+    color: black;
+}
+input
+{
+    background: transparent;
+    border-radius: 5px;
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    padding-left: 5px;
+    width: 49%;
+}
+#reservations-main
+{
+    background-image: url('../image/sunset.jpg');
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
